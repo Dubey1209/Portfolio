@@ -1,17 +1,23 @@
 *{
-        color: black;
+        color: white;
         background-color: #FFC8C8;
+        background-image: url(aesthetic.jpg);
+        background-repeat:no-repeat;
+        background-size:100% 100%;
+        background-attachment: fixed;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #greet{
         font-weight: 600;
         text-align: center;
+      
         
 }
 #Heading{
 
-        font-weight: 900;
+        font-weight: 800;
         text-align: center;
+        
 }
 #introduction{
         text-transform: capitalize;
