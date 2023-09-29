@@ -1,24 +1,45 @@
 *{
         color: black;
         background-color: #FFC8C8;
-        text-align: left;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-h3{
+#greet{
         font-weight: 600;
+        text-align: center;
+        
 }
 #Heading{
 
-        font-weight: 900;}
+        font-weight: 900;
+        text-align: center;
+}
 #introduction{
         text-transform: capitalize;
+        text-align: center;
 }
 #hobbies{
         text-transform: capitalize;
+        text-align: center;
 }
+
 #feedback{
         text-transform: capitalize;
 }
 #achievements{
         text-transform: capitalize;
+        text-align: center;
+}
+#profile{
+        height: 200px;
+        width : 200px;
+        align-items: end;
+        background-color: dodgerblue;
+        border-radius: 50%;
+        border-width: 3px;
+        border-style: double;
+        
+}
+#skill{
+        text-transform: capitalize;
+        text-align: center;
 }
