@@ -20,9 +20,14 @@ html,body{
 #page>img{
         position:absolute;
         right:5%;
-        top:48%;
+        top:50%;
         transform: translateY(-50%);
-        width:25%;
+        width:30%;
+}
+#page>#nav{
+        height:10%;
+        width:100%;
+        background-color: black;
 }
 #page1{
        height: 100vh;
