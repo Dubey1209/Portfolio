@@ -1,10 +1,24 @@
-h2{
-    color :darkturquoise;
-    
+*{
+        color: black;
+        background-color: #FFC8C8;
+        text-align: left;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 h3{
-        color :aliceblue ;
+        font-weight: 600;
 }
-body{
-        background-color: #D988B9;
+#Heading{
+
+        font-weight: 900;}
+#introduction{
+        text-transform: capitalize;
+}
+#hobbies{
+        text-transform: capitalize;
+}
+#feedback{
+        text-transform: capitalize;
+}
+#achievements{
+        text-transform: capitalize;
 }
