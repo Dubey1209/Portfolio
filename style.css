@@ -1,11 +1,28 @@
-*{
+*{      margin:0%;
+        padding :0%;
         color: white;
-        background-color: #FFC8C8;
         background-image: url(aesthetic.jpg);
         background-repeat:no-repeat;
         background-size:100% 100%;
         background-attachment: fixed;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav{ 
+        
+        display:flex;
+        justify-content:space-around;
+        
+        
+}
+nav ul{ background-color: chocolate;
+        display: flex;
+        justify-content: right;
+        
+}
+nav ul li{
+        list-style: none;
+        margin: 0 20px;
+        display: inline;
 }
 #greet{
         font-weight: 600;
@@ -21,7 +38,7 @@
 }
 #introduction{
         text-transform: capitalize;
-        text-align: center;
+        text-align: right;
 }
 #hobbies{
         text-transform: capitalize;
@@ -36,13 +53,17 @@
         text-align: center;
 }
 #profile{
-        height: 200px;
-        width : 200px;
+        height: 450px;
+        width : 300px;
         align-items: end;
         background-color: dodgerblue;
+        background-image: url(cdeepika.jpg);
+        background-repeat: no-repeat;
+        background-size:contain;
         border-radius: 50%;
-        border-width: 3px;
-        border-style: double;
+        border-width: 1px;
+        border-style:none;
+        position:absolute;
         
 }
 #skill{
