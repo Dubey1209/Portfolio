@@ -3,6 +3,7 @@
         padding:0%;
         box-sizing: border-box;
         text-transform: capitalize;
+        
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -37,7 +38,7 @@ html,body{
         z-index: 9;
         height:8%;
         width:100%;
-        background-color: white;
+        background-color: black;
 }
 #centre-nav{
         display:flex;
@@ -45,7 +46,7 @@ html,body{
 #centre-nav>a{
         text-decoration: none;
         text-transform: capitalize;
-        color: black;
+        color: white;
         font-weight: 400px;
 }
 #text{  padding: 30px 50px;
