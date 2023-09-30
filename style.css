@@ -5,6 +5,8 @@
         text-transform: capitalize;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+
 html,body{
         height:100%;
         width:100%;
@@ -94,38 +96,12 @@ html,body{
         position: absolute;
         z-index: 9;
 }
-#page2{
-        position: relative;
-        height: 100vh;
-        width:100vw;
-        background-color: white;
-}
-#project{ display:flex;
+#page2{ display: flex;
         align-items: center;
         justify-content: space-between;
-        height:50%;
-        width:90%;
-        background-color: red;
-        position: absolute;
-        left:50%;
-        transform: translateX(-50%);
-        bottom: 5%;
-
+        padding:0px 60px;
+        position: relative;
+        height:100vh;
+        width: 100vw;
 }
-.project1{
-        height:100%;
-        width:30%;
-        background-color: darkturquoise;
-
-}
-#text3{
-        height:30%;
-        width:100%;
-        background-color:maroon;
-
-}
-#image{
-        height:70%;
-        width:100%;
-        background-color: blue;
-}
+      
